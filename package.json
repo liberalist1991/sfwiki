@@ -1,0 +1,73 @@
+{
+  "name": "sfwiki",
+  "version": "0.0.3",
+  "description": "wiki site generator",
+  "bin": {
+    "sfwiki": "./bin/build.js"
+  },
+  "author": "thinkzhan",
+  "license": "ISC",
+  "files": [
+    "bin",
+    "run",
+    "example",
+    "docs",
+    "index.html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/liberalist1991/sfwiki.git"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "codemirror": "^5.40.0",
+    "copy-webpack-plugin": "^5.0.5",
+    "cross-env": "^5.2.0",
+    "css-loader": "^0.28.5",
+    "fs-extended": "^0.2.1",
+    "glob": "^7.1.4",
+    "html-assets-version-plugin": "0.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "^5.2.0",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "optimist": "^0.6.1",
+    "pre-commit": "^1.2.2",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "raw-loader": "^0.5.1",
+    "sfui-doc": "0.0.9",
+    "shelljs": "^0.8.2",
+    "style-loader": "^0.22.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "uppercamelcase": "^3.0.0",
+    "vue": "^2.4.2",
+    "vue-clipboard2": "^0.2.1",
+    "vue-loader": "^15.4.1",
+    "vue-md-loader": "^1.0.0",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.4.2",
+    "vuep": "^0.8.1",
+    "webpack": "^4.18.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.1.4",
+    "webpack-serve": "^2.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/liberalist1991/sfwiki/issues"
+  },
+  "homepage": "https://github.com/liberalist1991/sfwiki#readme",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  },
+  "devDependencies": {}
+}

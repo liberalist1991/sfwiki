@@ -1,0 +1,11 @@
+{
+  "name": "sfwiki",
+  "version": "0.0.1",
+  "description": "wiki site generator",
+  "scripts": {
+     "dev": "sfwiki --run=dev",
+     "build": "sfwiki --run=build"
+  },
+  "author": "thinkzhan",
+  "license": "ISC"
+}
