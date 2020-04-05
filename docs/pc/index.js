@@ -4,7 +4,7 @@ import VueClipboard from 'vue-clipboard2'
 import Vuep from 'vuep'
 import 'vuep/dist/vuep.css'
 import "codemirror/theme/neo.css"
-
+import "@PWD/docs/doc.css";
 import App from './index.vue';
 import FocusDoc, { Progress } from 'sfui-doc';
 import routes from './router';

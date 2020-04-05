@@ -1,18 +1,18 @@
 const fs = require('fs');
 const path = require('path');
 const uppercamelcase = require('uppercamelcase');
-// const Components = require('./get-libs')();
 
-module.exports = function genEntry() {  
+module.exports = function genEntry() {
+  const Components = require('./get-libs')();  
   const Mds = require('./get-mds')();
 
   const importList = [
-      // ...Components.map(name => `import ${uppercamelcase(name)} from '../libs/${name}/doc';`),
+      ...Components.map(name => `import ${uppercamelcase(name)} from '${process.cwd()}/libs/${name}/doc';`),
       ...Mds.map(name => `import ${uppercamelcase(name)} from '${process.cwd()}/docs/md/${name}.md';`)
   ];
 
   const exportList = [
-      // ...Components.map(name => `${uppercamelcase(name)}`),
+      ...Components.map(name => `${uppercamelcase(name)}`),
       ...Mds.map(name => `${uppercamelcase(name)}`)
   ];
 

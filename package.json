@@ -1,9 +1,12 @@
 {
   "name": "sfwiki",
-  "version": "0.0.3",
+  "version": "1.1.6",
   "description": "wiki site generator",
   "bin": {
     "sfwiki": "./bin/build.js"
+  },
+  "scripts": {
+    "dev": "cd example && node ../bin/build.js --run=dev"
   },
   "author": "thinkzhan",
   "license": "ISC",
@@ -12,6 +15,7 @@
     "run",
     "example",
     "docs",
+    "libs",
     "index.html"
   ],
   "repository": {
@@ -33,7 +37,6 @@
     "glob": "^7.1.4",
     "html-assets-version-plugin": "0.0.1",
     "html-webpack-plugin": "^3.2.0",
-    "mocha": "^5.2.0",
     "open-browser-webpack-plugin": "^0.0.5",
     "optimist": "^0.6.1",
     "pre-commit": "^1.2.2",
@@ -47,6 +50,7 @@
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "uppercamelcase": "^3.0.0",
+    "url-loader": "^4.0.0",
     "vue": "^2.4.2",
     "vue-clipboard2": "^0.2.1",
     "vue-loader": "^15.4.1",
@@ -61,13 +65,12 @@
     "webpack-serve": "^2.0.2"
   },
   "bugs": {
-    "url": "https://github.com/liberalist1991/sfwiki/issues"
+    "url": "https://github.com/thinkzhan/sfwiki/issues"
   },
-  "homepage": "https://github.com/liberalist1991/sfwiki#readme",
+  "homepage": "https://github.com/thinkzhan/sfwiki#readme",
   "main": "index.js",
   "directories": {
     "doc": "docs",
     "example": "example"
-  },
-  "devDependencies": {}
+  }
 }

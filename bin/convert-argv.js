@@ -19,8 +19,8 @@ module.exports = function (optimist, argv, convertOptions) {
   }
   // Run
   if (argv.hasOwnProperty('run')) {
-    if (!['dev', 'build'].includes(argv.run)) {
-      console.log('Run dev or build');
+    if (!['dev', 'build', 'build:lib', 'test:lib'].includes(argv.run)) {
+      console.log("['dev', 'build', 'build:lib', 'test:lib']");
       process.exit(-1);
     }
   }

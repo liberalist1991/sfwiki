@@ -1,6 +1,8 @@
-# wiki site generator
+# wiki site generator 
 
-简单的wiki站点生成器
+简单的wiki站点生成器，亦可直接组织一个组件库或者工具库
+
+----
 
 ## 用法
 
@@ -19,5 +21,11 @@ sfwiki --run=dev
 
 // 打包
 sfwiki --run=build
+
+// 打包lib
+sfwiki --run=build:lib
+
+// 测试lib
+sfwiki --run=test:lib
 ```
 

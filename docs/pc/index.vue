@@ -20,23 +20,14 @@ export default {
 <style >
 @import url('../reset.scss');
 
-.sfui-doc-nav__group {
-  font-size: 16px !important;
-  color: #333 !important;
+.sfui-doc .sfui-doc-nav__group {
+  font-size: 16px;
+  color: #333;
 }
-.sfui-doc-nav__subitem {
-  margin-left: 20px !important;
-  font-size: 14px !important;
-  color: #999 !important;
-}
-
-.fe-png {
-  max-width: calc(100vw - 280px);
-  overflow: scroll;
-}
-.fe-png img {
-  width: 100%;
-  height: 100%;
+.sfui-doc .sfui-doc-nav__subitem {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #999;
 }
 
 </style>

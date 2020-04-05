@@ -30,7 +30,7 @@ const registerRoute = (isDemo) => {
     } = page;
     if (path) {
       path = path.replace('/', '');
-
+      console.log(uppercamelcase(path))
       const component = DocsMap[uppercamelcase(path)];
 
       if (!component) {

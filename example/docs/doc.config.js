@@ -9,7 +9,7 @@ module.exports = {
             href: "#/"
         },
         nav: {
-            '导航1': "http://www.baidu.com",
+            'nav': "http://www.baidu.com",
         }
     },
     navEnter: '/index',
@@ -22,11 +22,11 @@ module.exports = {
             name: "",
             groups: [
                 {
-                    name: "分组1",
+                    name: "a group",
                     children: [
                         {
                             path: "/page1",
-                            title: "页面1",
+                            title: "markdown doc",
                         },
                         
                     ]
@@ -34,8 +34,12 @@ module.exports = {
             ]
         }, 
         {
-            path: "page2",
-            title: "页面2",
+            path: "demoCode",
+            title: "vue doc1",
+        },
+        {
+            path: "demoMd",
+            title: "vue doc2",
         }
     ]
 };

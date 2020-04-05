@@ -5,6 +5,7 @@ import App from './index.vue';
 import routes from '../pc/router';
 import isMobile from '../scripts/isMobile';
 import layoutMd from '../pc/layout-md';
+import "@PWD/docs/doc.css";
 
 if (window === window.top && !isMobile()) {
    location.href = './index.html';

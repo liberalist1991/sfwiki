@@ -1,77 +1,76 @@
 
-.sfui-doc-container section > ul li, .sfui-doc-container section > ol li {
-    background-color:#fff!important;
+.sfui-doc .sfui-doc-container section > ul li, .sfui-doc .sfui-doc-container section > ol li {
+    background-color:#fff;
     margin: 10px 0;
     padding: 0 0 0 20px;
-    font-size: 13px!important;
+    font-size: 13px;
     color: #5e6d82;
-    line-height: 2em!important;
-    margin: 2px 0 2px 10px!important;;
-    padding: 0!important;;
+    line-height: 2em;
+    margin: 2px 0 2px 10px;;
+    padding: 0;;
 }
-.sfui-doc-container section > ul li:first-child, .sfui-doc-container section > ol li:first-child {
-      margin-top: 0 !important;
+.sfui-doc .sfui-doc-container section > ul li:first-child, .sfui-doc .sfui-doc-container section > ol li:first-child {
+      margin-top: 0 ;
 }
 
-.sfui-doc-container section > ul, .sfui-doc-container section > ol {
-    padding: 0 0 0 10px!important;
+.sfui-doc .sfui-doc-container section > ul, .sfui-doc .sfui-doc-container section > ol {
+    padding: 0 0 0 10px;
     font-size: 14px;
     color: #5e6d82;
     line-height: 2em;
-    background-color:#fff!important;
+    background-color:#fff;
 }
 
-
-.sfui-doc-container code {
+.sfui-doc .sfui-doc-container code {
     display: block;
-    font-size: 13px!important;
+    font-size: 13px;
     word-break: break-all;
     white-space: pre-wrap;
     background-color: #fafafa;
     padding: 18px 10px 18px 20px;
-    line-height: 1.8!important;
+    line-height: 1.8;
     font-family: Menlo,Monaco,Consolas,Courier,monospace;
-    padding: 5px 10px!important;
+    padding: 5px 10px;
     background-color: #fafafa;
     border: 1px solid #eaeefb;
     margin-bottom: 25px;
     border-radius: 4px;
     -webkit-font-smoothing: auto;
 }
-.sfui-doc-container a {
+.sfui-doc .sfui-doc-container a {
     color: #e43;
 }
-.sfui-doc-container section > p {
-    margin: 10px 0!important;
+.sfui-doc .sfui-doc-container section > p {
+    margin: 10px 0;
     /* font-size: 14px; */
     /* line-height: 26px; */
-    font-size: 14px!important;
+    font-size: 14px;
     color: #5e6d82;
-    line-height: 1.8!important;
+    line-height: 1.8;
 }
 
-.sfui-doc-container section > h2 {
-    font-size: 28px!important;
-    font-weight: 500!important;
+.sfui-doc .sfui-doc-container section > h2 {
+    font-size: 28px;
+    font-weight: 500;
     color: #1f2d3d;
     margin: 0;
 }
 
-.sfui-doc-container section > h3 {
-    margin: 30px 0 10px!important;
-    font-size: 22px!important;
-    font-weight: 500!important;
+.sfui-doc .sfui-doc-container section > h3 {
+    margin: 30px 0 10px;
+    font-size: 22px;
+    font-weight: 500;
     color: #414d58;
 }
-.sfui-doc-container section > h4 {
-    margin: 20px 0!important;
+.sfui-doc .sfui-doc-container section > h4 {
+    margin: 20px 0;
 }
-.sfui-doc-container section > h5, .sfui-doc-container section > h6 {
-    font-size: 16px!important;
+.sfui-doc .sfui-doc-container section > h5, .sfui-doc .sfui-doc-container section > h6 {
+    font-size: 16px;
 }
-.sfui-doc-container ul {
+.sfui-doc .sfui-doc-container ul {
     display: block;
-    list-style-type: disc!important;
+    list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -79,11 +78,11 @@
     padding-inline-start: 40px;
 }
 
-.sfui-doc-container ol {
-    list-style-type: decimal!important;
+.sfui-doc .sfui-doc-container ol {
+    list-style-type: decimal;
 }
 
-.menu-goForward, .menu-goback {
-  display: none!important
+.sfui-doc .menu-goForward, .sfui-doc .menu-goback {
+  display: none
 }
 

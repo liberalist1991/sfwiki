@@ -7,6 +7,7 @@ const conf = require('./build/doc.conf');
 const OpenBrowserPlugin = require('open-browser-webpack-plugin')
 const getIPAdress = require('./build/localIP');
 const entryDoc = require('./build/entry-doc')
+
 entryDoc()
 
 const port = 8088
@@ -22,6 +23,9 @@ new WebpackDevServer(webpack(conf), {
 }).listen(port);
 
 fs.watch(path.resolve(process.cwd(), 'docs/md'), function (event, filename) {
-  console.log(event);
+  entryDoc()
+});
+
+fs.watch(path.resolve(process.cwd(), 'libs'), function (event, filename) {
   entryDoc()
 });
